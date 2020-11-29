@@ -34,7 +34,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-80a3c356",
+      "key": "v-7a719dac",
       "path": "/"
     },
     {
@@ -42,8 +42,28 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/foo/",
       "relativePath": "foo/README.md",
-      "key": "v-6cedc158",
+      "key": "v-5f3ee5ae",
       "path": "/foo/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.0",
+          "slug": "_1-0"
+        },
+        {
+          "level": 2,
+          "title": "2.0",
+          "slug": "_2-0"
+        }
+      ]
+    },
+    {
+      "title": "默认guide",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-543ed486",
+      "path": "/guide/",
       "headers": [
         {
           "level": 2,
@@ -62,7 +82,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/foo/one.html",
       "relativePath": "foo/one.md",
-      "key": "v-0c12cd39",
+      "key": "v-1f4fbc84",
       "path": "/foo/one.html"
     },
     {
@@ -70,28 +90,8 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/foo/two.html",
       "relativePath": "foo/two.md",
-      "key": "v-14b8c0f9",
+      "key": "v-27f5b044",
       "path": "/foo/two.html"
-    },
-    {
-      "title": "默认guide",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-06ce1a68",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.0",
-          "slug": "_1-0"
-        },
-        {
-          "level": 2,
-          "title": "2.0",
-          "slug": "_2-0"
-        }
-      ]
     }
   ],
   "themeConfig": {

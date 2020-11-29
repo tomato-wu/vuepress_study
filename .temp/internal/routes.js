@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-80a3c356",
+    name: "v-7a719dac",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-80a3c356").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7a719dac").then(next)
     },
   },
   {
@@ -21,11 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-6cedc158",
+    name: "v-5f3ee5ae",
     path: "/foo/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6cedc158").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5f3ee5ae").then(next)
     },
   },
   {
@@ -33,32 +33,32 @@ export const routes = [
     redirect: "/foo/"
   },
   {
-    name: "v-0c12cd39",
-    path: "/foo/one.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0c12cd39").then(next)
-    },
-  },
-  {
-    name: "v-14b8c0f9",
-    path: "/foo/two.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14b8c0f9").then(next)
-    },
-  },
-  {
-    name: "v-06ce1a68",
+    name: "v-543ed486",
     path: "/guide/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-06ce1a68").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-543ed486").then(next)
     },
   },
   {
     path: "/guide/index.html",
     redirect: "/guide/"
+  },
+  {
+    name: "v-1f4fbc84",
+    path: "/foo/one.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1f4fbc84").then(next)
+    },
+  },
+  {
+    name: "v-27f5b044",
+    path: "/foo/two.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-27f5b044").then(next)
+    },
   },
   {
     path: '*',
